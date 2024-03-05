@@ -1,0 +1,14 @@
+.main {
+  padding-top: 5rem;
+  height: 100vh;
+  background-color: #7e2553;
+}
+
+.sectionCenter {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}

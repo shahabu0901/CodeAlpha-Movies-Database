@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #1d2b53;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: wheat;
+  padding: 1.8rem 0;
+  z-index: 100;
+}
+.navCenter {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.navbar ul a {
+  color: wheat;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar ul a:hover {
+  color: red;
+}
+
+h1 {
+  font-size: 2rem;
+}
